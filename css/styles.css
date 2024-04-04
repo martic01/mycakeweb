@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.div {
+    display: flex;
+    justify-content: center;
+    position: sticky 40px;
+    background-color: rgb(63, 15, 85);
+    height: 100px;
+    width: 100%;
+    gap: 100px;
+    padding: 50px 300px;
+
+}
+
+.div p {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img {
+    margin-top: -40px;
+    width: 300px;
+}
+
+#butt1 {
+    position: relative;
+    z-index: 0;
+    width: 130px;
+    height: 50px;
+    margin: -30px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+}
+
+#butt1::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    background-color: #002;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 11px;
+    background: transparent;
+}
+
+#butt1::before {
+    content: "";
+    background: linear-gradient(45deg,
+            orange, blue, pink,
+            red, green, yellow);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 500%;
+    z-index: -1;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    filter: blur(6px);
+    transition: opacity .3s ease-in-out;
+    border-radius: 11px;
+    opacity: 2;
+
+    animation: glow 20s linear infinite;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+   100% {
+        background-position: 0 400%;
+    }
+}
+ #butt1:hover::before{
+    opacity: 2;
+    background: linear-gradient(45deg,
+    #000000c0,rgb(223, 145, 0),#000000dc);
+    filter: blur(8px);
+    animation: glow 40s linear infinite;
+    
+}
+
+#butt1:hover::after {
+    background: transparent;
+}
+#butt1:active{
+    color: #000;
+    background:linear-gradient(45deg,
+    #000000c0,rgb(231, 9, 50),#e40303);
+    font-weight: bold;
+
+}
