@@ -19,109 +19,355 @@ a {
     color: black;
 }
 
+@media only screen and (min-width:412px) {
+    .div2 {
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: 300;
 
-
-.div {
-    display: flex;
-    justify-content: center;
-    position: sticky 40px;
-    background-color: rgb(63, 15, 85);
-    height: 100px;
-    width: 100%;
-    gap: 100px;
-    padding: 50px 300px;
-
-}
-
-.div p {
-    cursor: pointer;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-img {
-    margin-top: -40px;
-    width: 300px;
-}
-
-#butt1 {
-    position: relative;
-    z-index: 0;
-    width: 130px;
-    height: 50px;
-    margin: -30px 10px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    outline: none;
-    border-radius: 13px;
-}
-
-#butt1::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    background-color: #002;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    border-radius: 11px;
-    background: transparent;
-}
-
-#butt1::before {
-    content: "";
-    background: linear-gradient(45deg,
-            orange, blue, pink,
-            red, green, yellow);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 500%;
-    z-index: -1;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    filter: blur(6px);
-    transition: opacity .3s ease-in-out;
-    border-radius: 11px;
-    opacity: 2;
-
-    animation: glow 20s linear infinite;
-}
-
-@keyframes glow {
-    0% {
-        background-position: 0 0;
     }
 
-    50% {
-        background-position: 400% 0;
+    #tp {
+        color: #ce0e0e;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: #ce0e0e underline;
     }
 
-   100% {
-        background-position: 0 400%;
+    .div {
+        z-index: 1;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        background-color: pink;
+        height: 80px;
+        width: 100%;
+        gap: 6px;
+        padding-top: 40px;
+    }
+
+    .div p {
+        cursor: pointer;
+        color: rgb(105, 112, 2);
+        font-size: 10px;
+        font-weight: 700;
+
+    }
+
+    .div p:hover {
+        color: rgb(192, 80, 192);
+        text-decoration: underline;
+    }
+
+    .co {
+        display: block;
+        gap: 5px;
+        margin-left: -3px;
+    }
+
+    .ca {
+        display: block;
+        gap: 5px;
+        margin-left: 10px;
+    }
+
+
+    img {
+        margin-top: -50px;
+        width: 170px;
+    }
+
+    #butt1 {
+        position: relative;
+        z-index: 0;
+        width: 55px;
+        height: 25px;
+        margin: -40px -5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        border-radius: 100%;
+    }
+
+    #butt1::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        background-color: #002;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 100%;
+        background: transparent;
+    }
+
+    #butt1::before {
+        content: "";
+        background: linear-gradient(45deg,
+                orange, blue, pink,
+                red, green, yellow);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 500%;
+        z-index: -1;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px);
+        filter: blur(6px);
+        transition: opacity .3s ease-in-out;
+        border-radius: 100%;
+        opacity: 2;
+
+        animation: glow 20s linear infinite;
+    }
+
+    @keyframes glow {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 400%;
+        }
+    }
+
+    #butt1:hover::before {
+        opacity: 2;
+        background: linear-gradient(45deg,
+                #000000c0, rgb(223, 145, 0), #000000dc);
+        filter: blur(8px);
+        animation: glow 40s linear infinite;
+
+    }
+
+    #butt1:hover::after {
+        background: transparent;
+    }
+
+    #butt1:active {
+        color: #ce0e0e;
+        background: linear-gradient(45deg,
+                #000000c0, rgb(240, 6, 17), #000000dc);
+        font-weight: bold;
+
+    }
+
+    .bgimg {
+        padding: 160px 20px;
+        z-index: -1;
+        background-image: url(../img/download\ \(2\).jpg);
+        background-size: 75%;
+        background-repeat: repeat;
+        width: 100%;
+        height: 400px;
+        opacity: 0.6;
+    }
+
+    #jo {
+        color: #10363f;
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+
+    #joword {
+        letter-spacing: 1px;
+        font-size: 20px;
+        margin-top: 10px;
+        color: rgb(124, 11, 73);
     }
 }
- #butt1:hover::before{
-    opacity: 2;
-    background: linear-gradient(45deg,
-    #000000c0,rgb(223, 145, 0),#000000dc);
-    filter: blur(8px);
-    animation: glow 40s linear infinite;
-    
-}
 
-#butt1:hover::after {
-    background: transparent;
-}
-#butt1:active{
-    color: #000;
-    background:linear-gradient(45deg,
-    #000000c0,rgb(231, 9, 50),#e40303);
-    font-weight: bold;
+@media only screen and (min-width:689px) {
+
+    .div {
+        z-index: 1;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        position: sticky 40px;
+        background-color: red;
+        height: 100px;
+        width: 100%;
+        gap: 80px;
+        padding: 50px 300px;
+
+    }
+
+    .div p {
+        cursor: pointer;
+        color: rgb(247, 243, 36);
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .div p:hover {
+        color: plum;
+        text-decoration: underline;
+    }
+
+    .co {
+        display: flex;
+        gap: 5px;
+    }
+
+    .ca {
+        display: flex;
+        gap: 5px;
+    }
+
+    img {
+        margin-top: -40px;
+        width: 300px;
+    }
+
+    #butt1 {
+        position: relative;
+        z-index: 0;
+        width: 130px;
+        height: 50px;
+        margin: -30px 10px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        border-radius: 13px;
+    }
+
+    #butt1::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        background-color: #002;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        border-radius: 11px;
+        background: transparent;
+    }
+
+    #butt1::before {
+        content: "";
+        background: linear-gradient(45deg,
+                orange, blue, pink,
+                red, green, yellow);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 500%;
+        z-index: -1;
+        width: calc(100% + 5px);
+        height: calc(100% + 5px);
+        filter: blur(6px);
+        transition: opacity .3s ease-in-out;
+        border-radius: 11px;
+        opacity: 2;
+
+        animation: glow 20s linear infinite;
+    }
+
+    @keyframes glow {
+        0% {
+            background-position: 0 0;
+        }
+
+        50% {
+            background-position: 400% 0;
+        }
+
+        100% {
+            background-position: 0 400%;
+        }
+    }
+
+    #butt1:hover::before {
+        opacity: 2;
+        background: linear-gradient(45deg,
+                #000000c0, rgb(223, 145, 0), #000000dc);
+        filter: blur(8px);
+        animation: glow 40s linear infinite;
+
+    }
+
+    #butt1:hover::after {
+        background: transparent;
+    }
+
+    #butt1:active {
+        color: #ce0e0e;
+        background: linear-gradient(45deg,
+                #000000c0, rgb(240, 6, 17), #000000dc);
+        font-weight: bold;
+
+    }
+
+    .div2 {
+        z-index: 1;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+
+    }
+
+    #tp {
+        color: #ce0e0e;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: #ce0e0e underline;
+    }
+
+    .bgimg {
+        padding: 400px 20px;
+        z-index: -1;
+        background-image: url(../img/p.jpg);
+        background-size: 75%;
+        background-repeat: repeat;
+        width: 100%;
+        height: 800px;
+        opacity: 0.6;
+    }
+
+    #jo {
+        color: #ce0e0e;
+        font-size: 100px;
+        font-weight: 700;
+
+    }
+
+    #joword {
+        letter-spacing: 1px;
+        font-size: 45px;
+        margin-top: 10px;
+        color: #002;
+    }
+
+
+
+
+
 
 }
