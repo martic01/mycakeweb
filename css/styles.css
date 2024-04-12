@@ -23,7 +23,7 @@ a {
     color: black;
 }
 
-@media only screen and (min-width:390px) {
+@media only screen and (min-width:340px) {
     audio{
         color: #000000c0;
         background-color:#000000dc;
