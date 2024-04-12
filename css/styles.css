@@ -24,12 +24,13 @@ a {
 }
 
 @media only screen and (min-width:390px) {
-    audio{
+    audio {
         color: #000000c0;
-        background-color:#000000dc;
+        background-color: #000000dc;
         opacity: 0.2;
         width: 100%;
     }
+
     .div2 {
         position: fixed;
         z-index: 999;
@@ -39,14 +40,14 @@ a {
         width: 100%;
         height: 60px;
         background-color: #fff;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
 
     }
 
     #tp {
         color: #ce0e0e;
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 500;
         text-decoration: #ce0e0e underline;
     }
@@ -55,19 +56,19 @@ a {
         z-index: 999;
         margin-top: 60px;
         display: flex;
-        justify-content: center;
+        padding-left: 50px;
         position: fixed;
         background-color: pink;
         height: 80px;
         width: 100%;
-        gap: 6px;
+        gap: 18px;
         padding-top: 40px;
     }
 
     .div p {
         cursor: pointer;
         color: rgb(105, 112, 2);
-        font-size: 10px;
+        font-size: 15px;
         font-weight: 700;
 
     }
@@ -98,8 +99,8 @@ a {
     #butt1 {
         position: relative;
         z-index: 0;
-        width: 55px;
-        height: 25px;
+        width: 65px;
+        height: 35px;
         margin: -40px -5px;
         color: #fff;
         cursor: pointer;
@@ -180,13 +181,13 @@ a {
 
     .bgimg {
 
-        padding: 220px 20px;
+        padding: 250px 20px;
         z-index: -1;
         background-image: url(../img/download\ \(1\).jpg);
-        background-size: 75%;
+        background-size:75%;
         background-repeat: repeat;
         width: 100%;
-        height: 400px;
+        height: 600px;
         opacity: 1;
     }
 
@@ -199,7 +200,7 @@ a {
 
     #joword {
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 10px;
         color: rgb(204, 228, 18);
     }
@@ -210,7 +211,7 @@ a {
         justify-content: center;
         margin-top: 100px;
         width: 100%;
-        height: 180px;
+        height: 240px;
     }
 
     .picbox {
@@ -218,7 +219,7 @@ a {
         margin-top: -50px;
         background-color: rgb(227, 225, 225);
         width: 400px;
-        height: 150px;
+        height: 220px;
         box-shadow: 0px 0px 10px -1px;
         border-radius: 5px;
     }
@@ -238,7 +239,7 @@ a {
         z-index: 2;
         background-color: rgb(227, 225, 225);
         width: 400px;
-        height: 150px;
+        height: 200px;
         box-shadow: 0px 0px 20px -1px;
         border-radius: 5px;
         font-size: 25px;
@@ -277,8 +278,8 @@ a {
     }
 
     .item {
-        height: 160px;
-        width: 115px;
+        height: 200px;
+        width: 200px;
         border-radius: 5px;
         box-shadow: 0px 0px 8px -1px;
         background-color: rgb(227, 225, 225);
@@ -310,8 +311,8 @@ a {
         align-items: center;
         width: 100%;
         height: 35%;
-        gap: 8px;
-        font-size: 10.5px;
+        gap: 15px;
+        font-size: 15px;
         background-color: rgb(227, 225, 225);
     }
 
@@ -326,11 +327,11 @@ a {
     }
 
     .buy {
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 600;
         color: #fff;
         height: 30px;
-        width: 30px;
+        width: 50px;
         border-radius: 9px;
         border: 1px solid white;
         background-color: rgb(34, 163, 34);
@@ -350,9 +351,9 @@ a {
     }
 
     .mor {
-        padding-top: 15px;
+        padding: 15px 10px;
         height: 50px;
-        width: 100px;
+        width: 110px;
         font-size: 15px;
         font-weight: 600;
         border-radius: 5px;
@@ -368,7 +369,7 @@ a {
 
     .mor:hover {
         background: linear-gradient(90deg, #9a0505f6, #db7777d2, #9a0505f6);
-        padding-top: 0px;
+        padding: 0px 0px;
         width: 120px;
     }
 
@@ -509,18 +510,20 @@ a {
         font-size: 15px;
         font-weight: 600px;
     }
+
     .mainbdy {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height: 92vh;
+        min-width: 92vh;
         background-color: #050505;
     }
 
     .cube {
         position: relative;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         transform-style: preserve-3d;
         animation: animate 10s linear infinite;
 
@@ -553,22 +556,22 @@ a {
         height: 100%;
         width: 100%;
         background: linear-gradient(#151515, #ce0e0e);
-        transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
+        transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
     }
 
     .top {
         position: relative;
         top: 0;
         left: 0;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         background-color: #f41c1c;
         filter: blur(20px);
         box-shadow: 0px 0px 100px rgb(255, 0, 2),
-        0px 0px 150px rgba(255, 0, 4, 0.815),
-        0px 0px 200px rgba(255, 0, 4, 0.762),
-        0px 0px 300px rgba(255, 0, 8, 0.778),
-        0px 0px 400px rgba(255, 0, 0, 0.783);
+            0px 0px 150px rgba(255, 0, 4, 0.815),
+            0px 0px 200px rgba(255, 0, 4, 0.762),
+            0px 0px 300px rgba(255, 0, 8, 0.778),
+            0px 0px 400px rgba(255, 0, 0, 0.783);
         transform: rotateX(90deg) translateZ(250px);
         transform-style: preserve-3d;
 
@@ -580,16 +583,16 @@ a {
         position: absolute;
         top: 0;
         left: 0;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         background-color: hsl(0, 91%, 46%);
         transform: rotateX(90deg) translateZ(-200px);
         filter: blur(40px);
         box-shadow: 0px 0px 100px rgb(255, 0, 2),
-        0px 0px 150px rgba(255, 0, 4, 0.815),
-        0px 0px 200px rgba(255, 0, 4, 0.762),
-        0px 0px 300px rgba(255, 0, 8, 0.778),
-        0px 0px 400px rgba(255, 0, 0, 0.783)
+            0px 0px 150px rgba(255, 0, 4, 0.815),
+            0px 0px 200px rgba(255, 0, 4, 0.762),
+            0px 0px 300px rgba(255, 0, 8, 0.778),
+            0px 0px 400px rgba(255, 0, 0, 0.783)
     }
 
     #img {
@@ -599,79 +602,86 @@ a {
     }
 
 
-.tex{
-    position: absolute;
-    z-index: 999;
-    height: 300px;
-    width: 300px;
-    background-color: #fff;
-    border: 10px solid #b0aeae;
-}
-.tex:hover{
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    opacity: 0.7;
-    
-}
-.tex p {
-    margin: 50px 30px;
-    font-style: normal;
-    font-size: 25px;
+    .tex {
+        position: absolute;
+        z-index: 999;
+        height: 400px;
+        width: 400px;
+        background-color: #fff;
+        border: 10px solid #b0aeae;
+    }
 
-}
-.tex p span{
-    font-style: normal;
-    font-size: 35px;
-    color: #ce0e0e;
+    .tex:hover {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        opacity: 0.7;
 
-}
-.tex ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+    }
 
-.tex ul li{
-    border: none;
-}
+    .tex p {
+        margin: 50px 30px;
+        font-style: normal;
+        font-size: 30px;
 
-#but1{
-    color: #000;
-    font-size: 20px;
-    border:2px solid black;
-    height: 60px;
-    width: 100px;
-    border-radius: 20px;
-}
-#but1:hover{
-    background-color:rgb(21, 137, 182) ;
-    color: #fff;
-    border: 2px solid #fff;
-}
-#but2{
-    color: #fff;
-    font-size: 20px;
-    border: 2px solid #fff;
-    background-color:rgb(21, 137, 182);
-    height: 60px;
-    width: 100px;
-    border-radius: 20px;
-}
-#but2:hover{
-    border:2px solid black ;
-    background-color:#fff ;
-    color: #000;
-}
+    }
+
+    .tex p span {
+        font-style: normal;
+        font-size: 35px;
+        color: #ce0e0e;
+
+    }
+
+    .tex ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .tex ul li {
+        border: none;
+    }
+
+    #but1 {
+        color: #000;
+        font-size: 20px;
+        border: 2px solid black;
+        height: 60px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    #but1:hover {
+        background-color: rgb(21, 137, 182);
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    #but2 {
+        color: #fff;
+        font-size: 20px;
+        border: 2px solid #fff;
+        background-color: rgb(21, 137, 182);
+        height: 60px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    #but2:hover {
+        border: 2px solid black;
+        background-color: #fff;
+        color: #000;
+    }
 
 }
 
 
 @media only screen and (min-width:1200px) {
-    audio{
+    audio {
         color: #000000c0;
-        background-color:#000000dc;
+        background-color: #000000dc;
         opacity: 0.2;
         width: 100%;
     }
@@ -1159,7 +1169,9 @@ a {
 
 
     /* CUBE STYLING */
-     .mainbdy {
+
+
+    .mainbdy {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1215,10 +1227,10 @@ a {
         background-color: #f41c1c;
         filter: blur(20px);
         box-shadow: 0px 0px 150px rgb(255, 0, 2),
-        0px 0px 200px rgba(255, 0, 4, 0.815),
-        0px 0px 300px rgba(255, 0, 4, 0.762),
-        0px 0px 400px rgba(255, 0, 8, 0.778),
-        0px 0px 500px rgba(255, 0, 0, 0.783);
+            0px 0px 200px rgba(255, 0, 4, 0.815),
+            0px 0px 300px rgba(255, 0, 4, 0.762),
+            0px 0px 400px rgba(255, 0, 8, 0.778),
+            0px 0px 500px rgba(255, 0, 0, 0.783);
         transform: rotateX(90deg) translateZ(400px);
         transform-style: preserve-3d;
 
@@ -1250,72 +1262,79 @@ a {
     }
 
 
-.tex{
-    position: absolute;
-    z-index: 999;
-    height: 700px;
-    width: 800px;
-    background-color: #fff;
-    border: 10px solid #b0aeae;
-}
-.tex:hover{
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    opacity: 0.7;
-    
-}
-.tex p {
-    margin: 90px 30px;
-    font-style: normal;
-    font-size: 70px;
+    .tex {
+        position: absolute;
+        z-index: 999;
+        height: 700px;
+        width: 800px;
+        background-color: #fff;
+        border: 10px solid #b0aeae;
+    }
 
-}
-.tex p span{
-    margin: 90px 30px;
-    font-style: normal;
-    font-size: 90px;
-    color: #ce0e0e;
+    .tex:hover {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        opacity: 0.7;
 
-}
-.tex ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
+    }
 
-.tex ul li{
-    border: none;
-    margin-left: 60px;
-}
+    .tex p {
+        margin: 90px 30px;
+        font-style: normal;
+        font-size: 70px;
 
-#but1{
-    color: #000;
-    font-size: 25px;
-    border:2px solid black;
-    height: 80px;
-    width: 200px;
-    border-radius: 20px;
-}
-#but1:hover{
-    background-color:rgb(21, 137, 182) ;
-    color: #fff;
-    border: 2px solid #fff;
-}
-#but2{
-    color: #fff;
-    font-size: 25px;
-    border: 2px solid #fff;
-    background-color:rgb(21, 137, 182);
-    height: 80px;
-    width: 200px;
-    border-radius: 20px;
-}
-#but2:hover{
-    border:2px solid black ;
-    background-color:#fff ;
-    color: #000;
-}
+    }
+
+    .tex p span {
+        margin: 90px 30px;
+        font-style: normal;
+        font-size: 90px;
+        color: #ce0e0e;
+
+    }
+
+    .tex ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .tex ul li {
+        border: none;
+        margin-left: 60px;
+    }
+
+    #but1 {
+        color: #000;
+        font-size: 25px;
+        border: 2px solid black;
+        height: 80px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    #but1:hover {
+        background-color: rgb(21, 137, 182);
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+    #but2 {
+        color: #fff;
+        font-size: 25px;
+        border: 2px solid #fff;
+        background-color: rgb(21, 137, 182);
+        height: 80px;
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    #but2:hover {
+        border: 2px solid black;
+        background-color: #fff;
+        color: #000;
+    }
 
 }
