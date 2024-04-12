@@ -662,7 +662,7 @@ a {
 }
 
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:1200px) {
 
     .div {
         z-index: 999;
