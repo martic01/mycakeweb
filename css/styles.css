@@ -607,7 +607,7 @@ a {
     background-color: #fff;
     border: 10px solid #b0aeae;
 }
-.tex:hover{
+.mainbdy:hover .tex{
     background-color: transparent;
     border: none;
     color: #fff;
