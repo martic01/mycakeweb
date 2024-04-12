@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #d8d8d8ca;
+    background-color: #d8d8d8ea;
 }
 
 li {
@@ -24,6 +24,12 @@ a {
 }
 
 @media only screen and (min-width:390px) {
+    audio{
+        color: #000000c0;
+        background-color:#000000dc;
+        opacity: 0.2;
+        width: 100%;
+    }
     .div2 {
         position: fixed;
         z-index: 999;
@@ -663,6 +669,12 @@ a {
 
 
 @media only screen and (min-width:1200px) {
+    audio{
+        color: #000000c0;
+        background-color:#000000dc;
+        opacity: 0.2;
+        width: 100%;
+    }
 
     .div {
         z-index: 999;
