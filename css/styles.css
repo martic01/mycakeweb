@@ -515,8 +515,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 92vh;
-        min-width: 92vh;
+        min-height: 100vh;
         background-color: #050505;
     }
 
@@ -611,7 +610,7 @@ a {
         border: 10px solid #b0aeae;
     }
 
-    .tex:hover {
+    .mainbdy:hover .tex {
         background-color: transparent;
         border: none;
         color: #fff;
