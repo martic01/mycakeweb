@@ -56,7 +56,7 @@ a {
         z-index: 999;
         margin-top: 60px;
         display: flex;
-        padding-left: 50px;
+        justify-content: center;
         position: fixed;
         background-color: pink;
         height: 80px;
