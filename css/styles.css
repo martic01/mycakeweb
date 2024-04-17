@@ -1235,7 +1235,7 @@ a {
             0px 0px 300px rgba(255, 0, 4, 0.762),
             0px 0px 400px rgba(255, 0, 8, 0.778),
             0px 0px 500px rgba(255, 0, 0, 0.783);
-        transform: rotateX(90deg) translateZ(280px);
+        transform: rotateX(90deg) translateZ(260px);
         transform-style: preserve-3d;
 
 
