@@ -7,7 +7,10 @@
 ## Technologies Used
 
 * _HTML_
-* _CSS ,_ _POWERPOINT_
+* _CSS_ 
+* _Powerpoint_
+* _Bootsrap_
+
 
 
 ## Description
