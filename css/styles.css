@@ -734,14 +734,14 @@ body {
         background-color: pink;
         height: 80px;
         width: 100%;
-        gap: 15px;
+        gap: 10px;
         padding-top: 40px;
     }
 
     .div p {
         cursor: pointer;
         color: rgb(105, 112, 2);
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 500;
 
     }
